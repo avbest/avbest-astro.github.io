@@ -22,7 +22,7 @@ import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://avbest-astro.github.io',
-  base: '/github-pages',
+  base: '/github-pages,
   trailingSlash: 'always',
   integrations: [
     tailwind({
